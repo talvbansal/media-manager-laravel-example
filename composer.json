@@ -1,14 +1,15 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "talvbansa/media-manager-laravel-exaple",
+    "description": "An example project showing the media-manager package integration with laravel",
+    "keywords": ["media-manager", "laravel", "talvbansal"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "talvbansal/media-manager": "^2.5"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
