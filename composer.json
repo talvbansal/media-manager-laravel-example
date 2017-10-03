@@ -50,7 +50,7 @@
         ]
     },
     "config": {
-        "preferred-install": "dist",
+        "preferred-install": "source",
         "sort-packages": true,
         "optimize-autoloader": true
     }
