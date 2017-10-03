@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+\TalvBansal\MediaManager\Routes\MediaRoutes::get();

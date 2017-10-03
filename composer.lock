@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "649af6690458e25495ff6865a76cc013",
+    "content-hash": "bbeffaeeb32afaff3c10c41ca47e26fd",
     "packages": [
         {
             "name": "dflydev/apache-mime-types",
@@ -2113,16 +2113,16 @@
         },
         {
             "name": "talvbansal/media-manager",
-            "version": "v2.5.5",
+            "version": "v2.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/talvbansal/media-manager.git",
-                "reference": "8b03df08c684d360b64e21a17a456c039b17703b"
+                "reference": "5f9dbaa238baced0c6bd1eca6a5145962e6e75e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/talvbansal/media-manager/zipball/8b03df08c684d360b64e21a17a456c039b17703b",
-                "reference": "8b03df08c684d360b64e21a17a456c039b17703b",
+                "url": "https://api.github.com/repos/talvbansal/media-manager/zipball/5f9dbaa238baced0c6bd1eca6a5145962e6e75e8",
+                "reference": "5f9dbaa238baced0c6bd1eca6a5145962e6e75e8",
                 "shasum": ""
             },
             "require": {
@@ -2130,13 +2130,20 @@
                 "php": ">=5.6"
             },
             "require-dev": {
-                "illuminate/routing": "^5.3",
-                "illuminate/support": "^5.3",
-                "mockery/mockery": "^0.9.5",
-                "orchestra/testbench": "3.3",
-                "phpunit/phpunit": "^5.0"
+                "illuminate/routing": "5.*",
+                "illuminate/support": "5.*",
+                "mockery/mockery": "^0.9",
+                "orchestra/testbench": "3.*",
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TalvBansal\\MediaManager\\Providers\\MediaManagerServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "TalvBansal\\MediaManager\\": "src/"
@@ -2168,7 +2175,7 @@
                 "minimal",
                 "uploader"
             ],
-            "time": "2017-07-24T16:35:20+00:00"
+            "time": "2017-09-02T15:35:13+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
