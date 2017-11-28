@@ -2113,16 +2113,16 @@
         },
         {
             "name": "talvbansal/media-manager",
-            "version": "v2.5.7",
+            "version": "2.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/talvbansal/media-manager.git",
-                "reference": "23ae85f10a8f6349618f5798c0617ca283b52735"
+                "reference": "94901a14dca99a4a13a71d8f7f3748f5a1ea5062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/talvbansal/media-manager/zipball/23ae85f10a8f6349618f5798c0617ca283b52735",
-                "reference": "23ae85f10a8f6349618f5798c0617ca283b52735",
+                "url": "https://api.github.com/repos/talvbansal/media-manager/zipball/94901a14dca99a4a13a71d8f7f3748f5a1ea5062",
+                "reference": "94901a14dca99a4a13a71d8f7f3748f5a1ea5062",
                 "shasum": ""
             },
             "require": {
@@ -2175,7 +2175,7 @@
                 "minimal",
                 "uploader"
             ],
-            "time": "2017-10-03T01:38:53+00:00"
+            "time": "2017-11-28T13:35:06+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
