@@ -8,7 +8,7 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan link:storage
-php artian serve
+php artisan serve
 ```
 
 Then simply navigate to [http://localhost:8000](http://localhost:8000) to see the media-manager running.
