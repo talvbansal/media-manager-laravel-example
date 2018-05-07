@@ -7,7 +7,7 @@ After cloning it down you'll need to run the following commands to get it runnin
 composer install
 cp .env.example .env
 php artisan key:generate
-php artisan link:storage
+php artisan storage:link
 php artisan serve
 ```
 
