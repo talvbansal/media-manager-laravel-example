@@ -9,7 +9,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-require('./../talvbansal/media-manager/js/media-manager');
+require('./../assets/talvbansal/media-manager/js/media-manager');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
