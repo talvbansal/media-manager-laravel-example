@@ -12,6 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css').options({
+        processCssUrls: false,
+    });
 
-mix.copy('resources/assets/talvbansal/media-manager/fonts/', 'public/fonts/');
+mix.copy('resources/vendor/talvbansal/media-manager/fonts/', 'public/fonts/');

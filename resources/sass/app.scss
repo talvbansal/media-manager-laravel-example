@@ -1,11 +1,10 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 // Variables
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
-@import "../assets/talvbansal/media-manager/css/media-manager.css";
+@import "./../vendor/talvbansal/media-manager/css/media-manager.css";
