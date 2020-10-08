@@ -9,7 +9,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-require('./../assets/talvbansal/media-manager/js/media-manager');
+require('./../vendor/talvbansal/media-manager/js/media-manager');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -17,8 +17,8 @@ require('./../assets/talvbansal/media-manager/js/media-manager');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
-Vue.component('file-browser', require('./components/FileBrowser.vue'));
+Vue.component('example', require('./components/Example.vue').default);
+Vue.component('file-browser', require('./components/FileBrowser.vue').default);
 
 const app = new Vue({
     el: '#app'

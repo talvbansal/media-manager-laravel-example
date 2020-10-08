@@ -1,5 +1,5 @@
 # Media-manager laravel example
-This repository is a vanilla Laravel 5.5 install with the [media-manager](https://github.com/talvbansal/media-manager) package added to it.
+This repository is a Laravel 5.8 install with the [media-manager](https://github.com/talvbansal/media-manager) package added to it.
 
 After cloning it down you'll need to run the following commands to get it running:
 
